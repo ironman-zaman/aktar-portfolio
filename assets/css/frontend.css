@@ -1,0 +1,21 @@
+.testimonials{
+background: linear-gradient(122.37deg, rgba(255, 255, 255, 0.72) 0.58%, rgba(255, 255, 255, 0.9) 100%);
+box-shadow: 0px 15px 30px rgba(71, 149, 250, 0.2);
+border-radius: 20px;
+padding:40px 30px;
+margin-top:40px;
+}
+.testimonial h4.t-author{
+color: #212529;
+text-transform: uppercase;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin-top:40px;
+}
+.glider-next, .glider-prev{
+position: static;
+}
+.glider-arrows{
+text-align: right;
+}

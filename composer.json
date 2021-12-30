@@ -1,0 +1,13 @@
+{
+    "name": "aktar/aktar-portfolio",
+    "description": "This is a custom wordpress plugin for creating portfolios",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Aktar\\Portfolio\\": "includes/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
