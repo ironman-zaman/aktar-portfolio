@@ -25,14 +25,32 @@ class ShortCode{
                 $query->the_post();
         ?>
       <div class="portfolio">
-					<div class="p-content">
-          <?php
-						the_content();	 
-					 ?>
-           </div>
-           <h4 class="p-title">
-           --<?php the_title(); ?>
-          </h4>
+            <div class="portfolio-thumb">
+                <?php
+                the_post_thumbnail();
+                ?>
+            </div>
+            <div class="portfolio-summary">
+                <h3 class="portfolio-title">
+                    <?php
+                    the_title();
+                    ?>
+                </h3>
+                <div class="p-exrept">
+                    <?php
+                    the_excerpt();	 
+                    ?>
+                </div>
+                <div class="portfolio-buttons">
+                    <div class="portfolio-btn1">
+                        <a href="">Preview</a>
+                    </div>
+                    <div class="portfolio-btn2">
+                        <a href="">Visit site</a>
+                    </div>
+                </div>
+            </div>
+            
       </div>        
         <?php
             }

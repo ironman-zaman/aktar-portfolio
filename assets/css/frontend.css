@@ -1,21 +1,57 @@
-.testimonials{
+.portfolios{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+}
+.portfolio-thumb{
+line-height: 0px;
+border-radius: 20px 20px 0px 0px;
+overflow: hidden;
+}
+.portfolio-thumb img{
+width: 100%;
+height: auto;
+}
+.portfolio-summary{
 background: linear-gradient(122.37deg, rgba(255, 255, 255, 0.72) 0.58%, rgba(255, 255, 255, 0.9) 100%);
 box-shadow: 0px 15px 30px rgba(71, 149, 250, 0.2);
-border-radius: 20px;
-padding:40px 30px;
-margin-top:40px;
+border-radius: 0px 0px 20px 20px;
+padding:20px 40px;
 }
-.testimonial h4.t-author{
-color: #212529;
-text-transform: uppercase;
+.portfolio-buttons{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:30px;
+}
+.portfolio-buttons a{
+height: 52px;
+display: flex;
+align-items: center;
+box-shadow: 0px 5px 10px rgba(35, 118, 236, 0.2);
+border-radius: 10px;
+text-align: center;
+justify-content: center;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+font-weight: bold;
+}
+.portfolio-buttons .portfolio-btn1 a{
+background: linear-gradient(94.17deg, rgba(33, 111, 237, 0.9) 3.11%, rgba(48, 229, 229, 0.9) 145.65%);
+}
+.portfolio-buttons .portfolio-btn2 a{
+background: linear-gradient(93.35deg, #EDAA21 -3.95%, #FDDF1A 172.8%);
+}
+.portfolio-summary h3{
+color: #113053;
 font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-margin-top:40px;
+font-size: 23px;
+line-height: 28px;
+margin-bottom: 10px;
 }
-.glider-next, .glider-prev{
-position: static;
-}
-.glider-arrows{
-text-align: right;
+.portfolio-summary .p-exrept{
+font-size: 18px;
+line-height: 32px;
+color: #113053;
+margin-bottom: 10px;
 }

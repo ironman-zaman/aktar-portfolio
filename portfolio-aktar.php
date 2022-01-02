@@ -41,7 +41,7 @@ final class Portfolio{
         define('PORTFOILO_FILE',__FILE__);
         define('PORTFOLIO_PATH',__DIR__);
         define('PORTFOLIO_URL', plugins_url('', PORTFOILO_FILE));
-        define('PORFOLIO_ASSETS', PORTFOLIO_URL . '/assets');
+        define('PORTFOLIO_ASSETS', PORTFOLIO_URL . '/assets');
     }
     
     public function activate(){

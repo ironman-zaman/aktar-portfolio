@@ -5,7 +5,7 @@ use Aktar\Portfolio\Assets;
 
 class FrontEnd{
     function __construct(){
-        //new Assets();
-        //new ShortCode();
+        new Assets();
+        new ShortCode();
     }
 }
